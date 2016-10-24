@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/newprojstyle.css" type="text/css" rel="stylesheet" />
+  <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+  <title>My First Project</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!--Header Class-->
+    <div class="header">
+      <div class="header-img">
+        <img id="headerimg" src="img/logo.png" alt="" />
+      </div>
+      <div class="menubar">
+        <ul class="navagation">
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>About</a>
+          </li>
+          <li>
+            <a>Porfolio</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--Social DIV-->
+    <div class="sociallink">
+      <div class="socialimg">
+        <img src="img/twiter.png" alt="" />
+        <img src="img/viber.png" alt="" />
+        <img src="img/facebook.png" alt="" />
+      </div>
+    </div>
+
+    <!-- firstlayer Class-->
+    <div class="firstlayer">
+      <div class="iconpack">
+        <h2>ICON PACK</h2>
+        <p>Nunc iaculis malesuada commodo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum viverra suscipit odio sed rhoncus.</p>
+        <button id="btn-visit">VISIT ONE</button>
+      </div>
+      <div class="fl-img">
+        <img id="iconpackimg" src="img/iconpack.png" alt="" />
+      </div>
+    </div>
+
+    <!--Secondlayer Class-->
+    <div class="secondlayer">
+
+      <div class="sl-left">
+        <div  class="sl-img">
+          <img id="l-img" src="img/exclamation.png" />
+        </div>
+        <div class="sl-info">
+          <h2>Lorem Ipsum</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis, dolor at venenatis dapibus, odio orci egestas lectus, in molestie eros sem sed est. Nulla nec interdum nibh.</p>
+          <p><a>More info...</a></p>
+        </div>
+      </div>
+
+      <div class="sl-rigth">
+        <div class="sl-img">
+          <img id="r-img" src="img/check.png" />
+        </div>
+        <div class="sl-info">
+          <h2>Dolor sit amet</h2>
+          <p>In sollicitudin, turpis in bibendum imperdiet, libero sapien malesuada felis, vel rhoncus ligula arcu convallis nisl. Fusce pharetra pellentesque leo quis eleifend.</p>
+          <p><a>More info...</a></p>
+        </div>
+      </div>
+    </div>
+
+  <!--Third Layer DIV-->
+    <div class="thirdlayer">
+    <h2>Space for more of your content</h2>
+    <p>Nulla hendrerit dictum augue, in egestas nisi tristique scelerisque. Morbi porta elementum arcu nec adipiscing. Curabitur mattis lorem sed arcu lobortis ornare. Aliquam scelerisque tempus purus vitae malesuada. Vivamus eleifend egestas euismod. Aliquam erat volutpat. Vivamus pellentesque fringilla nisl et tempor. Pellentesque et justo vitae arcu tempus dignissim. Pellentesque lacinia quam ut velit malesuada consequat laoreet justo tincidunt. Vestibulum lacus nibh, iaculis ut accumsan et, bibendum nec sapien. Praesent eu venenatis urna. Phasellus non nunc vitae lacus pulvinar molestie. Morbi eget augue dui, vitae scelerisque lacus. Mauris scelerisque molestie ligula in laoreet. Vestibulum tristique fermentum sollicitudin. </p>
+
+      <div class="tl-imgs">
+        <div class="tl-img">
+          <img src="img/lowerlogo1.png" />
+        </div>
+
+        <div class="tl-img" id="centerimg">
+          <img src="img/lowerlogo2.png" />
+        </div>
+
+        <div class="tl-img">
+          <img src="img/lowerlogo3.png" />
+        </div>
+      </div>
+
+      <div class="thirdlayerbutton">
+        <button id="#" >GO GET IT</button>
+      </div>
+
+    </div>
+
+  <!--Footer DIV-->
+    <div class="footer">
+      <p>Some copyright for you business. Design by iMatt.si</p>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
